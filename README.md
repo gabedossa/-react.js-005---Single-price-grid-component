@@ -10,37 +10,26 @@ Interactivity: Includes interactive elements such as plan selection and switch t
 Customizable: Easy to customize styles and themes to fit any branding.
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
+</br>
 Prerequisites
 Before you begin, ensure you have the following installed:
-
+</br>
 Node.js
 npm or yarn
 Installation
 Clone the repository:
-sh
+</br>
 Copy code
 git clone https://github.com/gabedossa/-react.js-005---Single-price-grid-component.git
+</br>
 Navigate to the project directory:
-sh
+</br>
 Copy code
 cd pricing-component-challenge
 Install the necessary packages:
-sh
-Copy code
-npm install
-or
-sh
-Copy code
-yarn install
-Start the development server:
-sh
-Copy code
-npm start
-or
-sh
-Copy code
-yarn start
+</br>
+Copy code</br>
+npm install</br>
 Open http://localhost:3000 to view the project in the browser.
 Usage
 The main feature of this project is the pricing component. Users can interact with the component to view different pricing plans and options. Customize the component as needed to fit your own projects or to extend its functionality.
