@@ -9,10 +9,14 @@
 
 /* Configuração Greral */
 
+.card{
+    background-color: var(--bgCard);
+    width: 750px;
+}
+
 .container{
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -21,29 +25,17 @@
     width: 90%;
 }
 
-.card{
-    background-color: var(--bgCard);
-    width: 750px;
-}
-.top{
-    width: 100%;
-    padding: 25px;
-}
+
 
 .bottom{
     width: 100%;
     display: flex;
 }
 
+/* fim Configuração Greral */
+
 
 /* CONFIGURAÇÃO CARD TOP */
-.container_top{
-    margin-top: 10px;
-}
-.top_content{
-    width: 90%;
-    height: 250px;
-}
 
 .text_aling{
     display: block;
@@ -108,7 +100,7 @@
 }
 
 .Sign_Up{
-    width: 100%;
+    width: 150px;
     height: 50px;
     border: none;
     background-color: var(--yellowGreen);
@@ -143,3 +135,25 @@
 }
 
 /*FIM CONFIGURAÇÃO CARD BOTTOM */
+
+
+/* SCREEN SIZE */
+@media screen and (max-width: 720px) {
+
+    .card{
+        width: 530px;
+    }
+
+   
+    .bottom{
+        max-width: 480px;
+        display: block;
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
