@@ -1,7 +1,7 @@
 :root{
     --bgCard: #FFFFFF;
-    --primary: #2BB3B1;
-    --secondary: #4ABEBB;
+    --primary: #228180;
+    --secondary: #3e9794;
     --yellowGreen: #BFDF32;
     --secondaryFont: #B5B9C5;
 
@@ -23,7 +23,7 @@
 
 .card{
     background-color: var(--bgCard);
-    width: 75%;
+    width: 750px;
 }
 .top{
     width: 100%;
@@ -48,6 +48,7 @@
 .text_aling{
     display: block;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 
@@ -126,8 +127,19 @@
     padding: 25px;
 }
 
+.right_container{
+    width: 100%;
+    margin-left: 15px;
+
+}
+
 .right_content{
-    width: 60%;
+    width: 70%;
     text-align: left;
 }
+
+.right_justificativa{
+    font-size: 19px;
+}
+
 /*FIM CONFIGURAÇÃO CARD BOTTOM */

@@ -25,10 +25,10 @@ function CardComponent() {
 
             </div>
             <div className="right">
-                <div className="container">
+                <div className="right_container">
                 <div className="right_content">
                     <p className="bottom_title_text">Why Us</p>
-                    <p className="justificativa">Tutorials by industry experts Peer & expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
+                    <p className="right_justificativa">Tutorials by industry experts Peer & expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
                 </div>
                 </div>
             </div>
