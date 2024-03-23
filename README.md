@@ -20,7 +20,7 @@ Installation
 Clone the repository:
 sh
 Copy code
-git clone https://github.com/your-username/pricing-component-challenge.git
+git clone https://github.com/gabedossa/-react.js-005---Single-price-grid-component.git
 Navigate to the project directory:
 sh
 Copy code
